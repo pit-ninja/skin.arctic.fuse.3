@@ -734,6 +734,11 @@
     </variable>
 
     <variable name="Label_ListItem_AudioCodec">
+        <value condition="String.IsEqual(ListItem.AudioCodec,truehd) + String.Contains(ListItem.FileNameAndPath,truehd atmos)">TrueHD Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,eac3) + String.Contains(ListItem.FileNameAndPath,eac3 atmos)">DD+ Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X MA</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_hra) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X HRA</value>
+
         <value condition="String.IsEqual(ListItem.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_latm)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_lc)">AAC</value>
@@ -781,6 +786,11 @@
     </variable>
      
     <variable name="Label_ListItem_AudioCodec_Dialog">
+        <value condition="String.IsEqual(ListItem.AudioCodec,truehd) + String.Contains(ListItem.FileNameAndPath,truehd atmos)">TrueHD Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,eac3) + String.Contains(ListItem.FileNameAndPath,eac3 atmos)">DD+ Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X MA</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_hra) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X HRA</value>
+
         <value condition="String.IsEqual(ListItem.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_latm)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_lc)">AAC</value>
@@ -828,6 +838,11 @@
     </variable>
     
     <variable name="Label_ListItem_AudioCodec_Version">
+        <value condition="String.IsEqual(ListItem.AudioCodec,truehd) + String.Contains(ListItem.FileNameAndPath,truehd atmos)">TrueHD Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,eac3) + String.Contains(ListItem.FileNameAndPath,eac3 atmos)">DD+ Atmos</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X MA</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_hra) + String.Contains(ListItem.FileNameAndPath,dts-x)">DTS:X HRA</value>
+
         <value condition="String.IsEqual(ListItem.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_latm)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_lc)">AAC</value>
@@ -1285,20 +1300,16 @@
     </variable>
 
     <variable name="Label_Section_Main">
-        <!-- Filtered Dir -->
         <value condition="Window.IsMedia + String.IsEqual(Container.FolderName,Skin Variables) + !String.IsEmpty(Window.Property(MediaFilter.BaseDir.Name))">$INFO[Window.Property(MediaFilter.BaseDir.Name)]</value>
 
-        <!-- Playlist label -->
         <value condition="Window.IsVisible(videoplaylist)">$LOCALIZE[10025]</value>
         <value condition="Window.IsVisible(musicplaylist)">$LOCALIZE[134]</value>
 
-        <!-- Content Labels -->
         <value condition="Container.Content(seasons)">$LOCALIZE[33054]</value>
         <value condition="Container.Content(albums)">$LOCALIZE[132]</value>
         <value condition="Container.Content(songs)">$LOCALIZE[134]</value>
         <value condition="Container.Content(episodes) + !String.IsEmpty(Container.FolderName) + String.IsEqual(Container.FolderName,Container.ShowTitle)">$LOCALIZE[20360]</value>
 
-        <!-- Category Labels -->
         <value condition="Window.IsMedia + !String.IsEmpty(Container.PluginCategory)">$INFO[Container.PluginCategory]</value>
         <value condition="Window.IsMedia + !String.IsEmpty(Container.FolderName)">$INFO[Container.FolderName]</value>
         <value condition="Window.IsMedia + !String.IsEmpty(Container.PluginName)">$LOCALIZE[24000]</value>
