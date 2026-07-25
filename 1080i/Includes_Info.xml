@@ -951,7 +951,7 @@
             <include content="Info_Line_Pill_Text">
                 <param name="colordiffuse">$PARAM[colordiffuse]</param>
                 <param name="label">Dolby Vision</param>
-                <param name="visible">$PARAM[visible] + Skin.HasSetting(InfoBar.TwoRow) + String.IsEqual($PARAM[container]$PARAM[listitem].HdrType,dolbyvision) + [[!String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,ac3) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,dolbydigital) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,eac3) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,eac3_ddp_atmos) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,truehd) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,truehd_atmos)] | String.Contains($PARAM[container]$PARAM[listitem].FileNameAndPath,dts)]</param>
+                <param name="visible">$PARAM[visible] + Skin.HasSetting(InfoBar.TwoRow) + String.IsEqual($PARAM[container]$PARAM[listitem].HdrType,dolbyvision) + [[!String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,ac3) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,dolbydigital) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,eac3) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,eac3_ddp_atmos) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,truehd) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,truehd_atmos) + !String.IsEqual($PARAM[container]$PARAM[listitem].AudioCodec,ac4)] | String.Contains($PARAM[container]$PARAM[listitem].FileNameAndPath,dts)]</param>
                 <param name="width">auto</param>
             </include>
             <include content="Info_Line_Pill_Text">

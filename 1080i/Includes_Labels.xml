@@ -725,6 +725,7 @@
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,dtshd_ma_x)">DTS:X MA</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,dtshd_ma_x_imax)">DTS:X (IMAX)</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,eac3)">Dolby Digital+</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,ac4)">Dolby AC-4</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,eac3_ddp_atmos)">Dolby Atmos</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,flac)">FLAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,mp1)">MP1</value>
@@ -777,6 +778,7 @@
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x)">DTS:X MA</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x_imax)">DTS:X (IMAX)</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3)">DD+</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,ac4)">Dolby AC-4</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3_ddp_atmos)">Dolby Atmos</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,flac)">FLAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,mp1)">MP1</value>
@@ -829,6 +831,7 @@
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x)">DTS:X MA</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x_imax)">DTS:X (IMAX)</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3)">DD+</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,ac4)">Dolby AC-4</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3_ddp_atmos)">DD+</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,flac)">FLAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,mp1)">MP1</value>
@@ -881,6 +884,7 @@
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x)">DTS:X MA</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,dtshd_ma_x_imax)">DTS:X (IMAX)</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3)">Dolby Digital Plus</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,ac4)">Dolby AC-4</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,eac3_ddp_atmos)">Dolby Digital Plus</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,flac)">FLAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,mp1)">MP1</value>
@@ -1695,6 +1699,7 @@
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,dtshd_ma_x)">DTS:X MA</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,dtshd_ma_x_imax)">DTS:X</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,eac3)">Dolby Digital Plus</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,ac4)">Dolby AC-4</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,eac3_ddp_atmos)">Dolby Digital Plus</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,flac)">FLAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,mp1)">MP1</value>
