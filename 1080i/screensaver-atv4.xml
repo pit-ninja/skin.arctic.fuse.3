@@ -38,7 +38,7 @@
 
 		<control type="grouplist" id="32504">
 		        <!-- Render text only when show-info is true AND the shutter is currently open (false) -->
-				<visible>String.IsEqual(Window.Property(show-info),true) + String.IsEqual(Window.Property(fade-black),false) + String.IsEqual(Window.Property(poi-fade-out),false)</visible>
+				<visible>String.IsEqual(Window.Property(show-info),true) + String.IsEqual(Window.Property(fade-black),false) + String.IsEqual(Window.Property(poi-fade-out),false) + String.IsEqual(Window.Property(text-fade-out),false)</visible>
 				<!-- When True: Fade in from transparent -->
 				<animation effect="fade" start="0" end="100" time="2000">Visible</animation>
 				<!-- When False: Fade out to transparent -->
@@ -75,7 +75,7 @@
 
 		<control type="grouplist" id="32505">
 				<!-- Render text only when show-info is true AND the shutter is currently open (false) -->
-				<visible>String.IsEqual(Window.Property(show-info),true) + String.IsEqual(Window.Property(fade-black),false)</visible>
+				<visible>String.IsEqual(Window.Property(show-info),true) + String.IsEqual(Window.Property(show-clock),true) + String.IsEqual(Window.Property(fade-black),false) + String.IsEqual(Window.Property(text-fade-out),false)</visible>
 				<!-- When True: Fade in from transparent -->
 				<animation effect="fade" start="0" end="100" time="2000">Visible</animation>
 				<!-- When False: Fade out to transparent -->
