@@ -19,14 +19,6 @@ msgctxt "#31009"
 msgid "Widget Customisation"
 msgstr "Widget Customization"
 
-msgctxt "#31049"
-msgid "Customise shortcuts and widgets"
-msgstr "Customize shortcuts and widgets"
-
-msgctxt "#31084"
-msgid "Preload hubs during startup initialisation"
-msgstr "Preload hubs during startup initialization"
-
 msgctxt "#31086"
 msgid "Customise options"
 msgstr "Customize options"
@@ -36,20 +28,16 @@ msgid "Invert Text Colour"
 msgstr "Invert Text Color"
 
 msgctxt "#31127"
-msgid "Genre colours"
-msgstr "Genre colors"
+msgid "EPG genre colours"
+msgstr "EPG genre colors"
 
 msgctxt "#31145"
 msgid "Initialising Skin"
 msgstr "Initializing Skin"
 
-msgctxt "#31165"
-msgid "Seekbar behaviour on delayed pause"
-msgstr "Seekbar behavior on delayed pause"
-
-msgctxt "#31186"
-msgid "Behaviour"
-msgstr "Behavior"
+msgctxt "#31151"
+msgid "Customise video info"
+msgstr "Customize video info"
 
 msgctxt "#31203"
 msgid "Customise"
@@ -63,10 +51,6 @@ msgctxt "#31213"
 msgid "Visualisation settings"
 msgstr "Visualization settings"
 
-msgctxt "#31231"
-msgid "Customise highlight colours"
-msgstr "Customize highlight colors"
-
 msgctxt "#31234"
 msgid "Customise indicators"
 msgstr "Customize indicators"
@@ -75,33 +59,29 @@ msgctxt "#31241"
 msgid "Colour scheme"
 msgstr "Color scheme"
 
-msgctxt "#31255"
-msgid "Customise startup image"
-msgstr "Customize startup image"
-
 msgctxt "#31275"
 msgid "Customise search"
 msgstr "Customize search"
-
-msgctxt "#31300"
-msgid "Customise window background"
-msgstr "Customize window background"
 
 msgctxt "#31303"
 msgid "Customise fallback image folder"
 msgstr "Customize fallback image folder"
 
+msgctxt "#31321"
+msgid "Customise viewtypes"
+msgstr "Customize viewtypes"
+
 msgctxt "#31427"
 msgid "Initialising"
 msgstr "Initializing"
 
-msgctxt "#31428"
-msgid "Hide widget initialisation behind splash"
-msgstr "Hide widget initialization behind splash"
-
 msgctxt "#31430"
 msgid "Customise style"
 msgstr "Customize style"
+
+msgctxt "#31434"
+msgid "Customise video OSD"
+msgstr "Customize video OSD"
 
 msgctxt "#31444"
 msgid "Customisation"
@@ -131,17 +111,93 @@ msgctxt "#31538"
 msgid "Customise viewtypes"
 msgstr "Customize viewtypes"
 
-msgctxt "#31564"
-msgid "General appearance and widget layout customisations."
-msgstr "General appearance and widget layout customizations."
-
-msgctxt "#31565"
-msgid "Detailed adjustments and additional hub customisations."
-msgstr "Detailed adjustments and additional hub customizations."
-
 msgctxt "#31586"
 msgid "Customise shortcuts"
 msgstr "Customize shortcuts"
+
+msgctxt "#31634"
+msgid "Stylised"
+msgstr "Stylized"
+
+msgctxt "#31645"
+msgid "This category contains the settings for the colour scheme and backgrounds."
+msgstr "This category contains the settings for the color scheme and backgrounds."
+
+msgctxt "#31648"
+msgid "This category contains the settings for widget behaviour and the information dialog widgets and buttons."
+msgstr "This category contains the settings for widget behavior and the information dialog widgets and buttons."
+
+msgctxt "#31653"
+msgid "Open the editor to customise the home menu shortcuts and the widgets shown for each item."
+msgstr "Open the editor to customize the home menu shortcuts and the widgets shown for each item."
+
+msgctxt "#31661"
+msgid "Select a preset colour scheme for highlights, backgrounds and dialogs."
+msgstr "Select a preset color scheme for highlights, backgrounds and dialogs."
+
+msgctxt "#31662"
+msgid "Choose the colours used for focus highlights and selected text."
+msgstr "Choose the colors used for focus highlights and selected text."
+
+msgctxt "#31663"
+msgid "Choose the colour and image used for the window background."
+msgstr "Choose the color and image used for the window background."
+
+msgctxt "#31664"
+msgid "Choose the colour and image used for the dialog background."
+msgstr "Choose the color and image used for the dialog background."
+
+msgctxt "#31669"
+msgid "Select whether rating icons are shown in colour or monochrome."
+msgstr "Select whether rating icons are shown in color or monochrome."
+
+msgctxt "#31692"
+msgid "Set how long playback must be paused before the seekbar behaviour is applied."
+msgstr "Set how long playback must be paused before the seekbar behavior is applied."
+
+msgctxt "#31708"
+msgid "Colour the programmes in the EPG grid by genre."
+msgstr "Color the programs in the EPG grid by genre."
+
+msgctxt "#31709"
+msgid "Use TMDbHelper to look up extra details and artwork for PVR programmes."
+msgstr "Use TMDbHelper to look up extra details and artwork for PVR programs."
+
+msgctxt "#31730"
+msgid "Customise the submenu items shown for this hub."
+msgstr "Customize the submenu items shown for this hub."
+
+msgctxt "#31750"
+msgid "Customise the items in the power menu."
+msgstr "Customize the items in the power menu."
+
+msgctxt "#31751"
+msgid "Customise the buttons in the tray of the options menu."
+msgstr "Customize the buttons in the tray of the options menu."
+
+msgctxt "#31753"
+msgid "Run the setup wizard to choose the home layout, widgets, colours and backgrounds."
+msgstr "Run the setup wizard to choose the home layout, widgets, colors and backgrounds."
+
+msgctxt "#31760"
+msgid "Replace the Home widgets with a ready-made set. Kodi asks before your current widgets are overwritten. Customise them later in Skin settings."
+msgstr "Replace the Home widgets with a ready-made set. Kodi asks before your current widgets are overwritten. Customize them later in Skin settings."
+
+msgctxt "#31767"
+msgid "Colours"
+msgstr "Colors"
+
+msgctxt "#31768"
+msgid "A colour scheme sets the highlight colour, window background and dialog background together. Adjust each one afterwards if you like."
+msgstr "A color scheme sets the highlight color, window background and dialog background together. Adjust each one afterwards if you like."
+
+msgctxt "#31783"
+msgid "Colour scheme and highlight colour"
+msgstr "Color scheme and highlight color"
+
+msgctxt "#31792"
+msgid "Highlight colour"
+msgstr "Highlight color"
 
 msgctxt "#31982"
 msgid "Customise video osd"
