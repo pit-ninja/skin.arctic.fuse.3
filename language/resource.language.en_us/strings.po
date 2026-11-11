@@ -135,18 +135,6 @@ msgctxt "#31661"
 msgid "Select a preset colour scheme for highlights, backgrounds and dialogs."
 msgstr "Select a preset color scheme for highlights, backgrounds and dialogs."
 
-msgctxt "#31662"
-msgid "Choose the colours used for focus highlights and selected text."
-msgstr "Choose the colors used for focus highlights and selected text."
-
-msgctxt "#31663"
-msgid "Choose the colour and image used for the window background."
-msgstr "Choose the color and image used for the window background."
-
-msgctxt "#31664"
-msgid "Choose the colour and image used for the dialog background."
-msgstr "Choose the color and image used for the dialog background."
-
 msgctxt "#31669"
 msgid "Select whether rating icons are shown in colour or monochrome."
 msgstr "Select whether rating icons are shown in color or monochrome."
