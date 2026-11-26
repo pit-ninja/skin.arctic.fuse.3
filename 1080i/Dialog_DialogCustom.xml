@@ -2417,7 +2417,7 @@
             <param name="dialog">true</param>
             <param name="id">8002</param>
             <param name="control">button</param>
-            <label>$LOCALIZE[31974]</label>
+            <label>$LOCALIZE[31474]</label>
             <label2>$VAR[PPIMode]</label2>
             <onclick condition="!Skin.HasSetting(ppi.classicMode) + !Skin.HasSetting(ppi.modernMode)">Skin.ToggleSetting(ppi.classicMode)</onclick>
             <onclick condition="Skin.HasSetting(ppi.classicMode)">Skin.ToggleSetting(ppi.modernMode)</onclick>
@@ -2428,7 +2428,7 @@
             <param name="dialog">true</param>
             <param name="id">8003</param>
             <param name="control">radiobutton</param>
-            <label> $LOCALIZE[31976]</label>
+            <label> $LOCALIZE[31481]</label>
             <onclick>Skin.ToggleSetting(Filename.PPI)</onclick>
             <selected>Skin.HasSetting(Filename.PPI)</selected>
             <visible>Skin.HasSetting(ppi.modernMode)</visible>
@@ -2437,7 +2437,7 @@
             <param name="dialog">true</param>
             <param name="id">8004</param>
             <param name="control">button</param>
-            <label>$LOCALIZE[31973]</label>
+            <label>$LOCALIZE[31466]</label>
             <label2>$VAR[ArtworkStyle]</label2>
             <onclick condition="String.IsEmpty(Skin.String(OSD.ArtworkStyle)) | String.IsEqual(Skin.String(OSD.ArtworkStyle),Off)">Skin.SetString(OSD.ArtworkStyle,DiscArt)</onclick>
             <onclick condition="String.IsEqual(Skin.String(OSD.ArtworkStyle),DiscArt)">Skin.SetString(OSD.ArtworkStyle,VHSArt)</onclick>
@@ -2447,7 +2447,7 @@
             <param name="dialog">true</param>
             <param name="id">8005</param>
             <param name="control">radiobutton</param>
-            <label>$LOCALIZE[31986]</label>
+            <label>$LOCALIZE[31518]</label>
             <selected>!Skin.HasSetting(OSD.DiscArtNoRotate)</selected>
             <onclick>Skin.ToggleSetting(OSD.DiscArtNoRotate)</onclick>
             <visible>String.IsEqual(Skin.String(OSD.ArtworkStyle),DiscArt)</visible>
@@ -2455,13 +2455,13 @@
         <include content="Settings_Label">
             <param name="id">8006</param>
             <param name="dialog">true</param>
-            <label>$LOCALIZE[31963]</label>
+            <label>$LOCALIZE[31443]</label>
         </include>
         <include content="Settings_Button">
             <param name="dialog">true</param>
             <param name="id">8007</param>
             <param name="control">button</param>
-            <label>$LOCALIZE[31962]</label>
+            <label>$LOCALIZE[31437]</label>
             <label2>$VAR[OSDCodecLogosStartupLabel]</label2>
             <onclick condition="!Skin.HasSetting(osd.useleftCodecStartupLogos) + !Skin.HasSetting(osd.usecenterCodecStartupLogos) + !Skin.HasSetting(osd.userightCodecStartupLogos)">Skin.ToggleSetting(osd.useleftCodecStartupLogos)</onclick>
             <onclick condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">Skin.ToggleSetting(osd.usecenterCodecStartupLogos)</onclick>
@@ -2474,7 +2474,7 @@
             <param name="dialog">true</param>
             <param name="id">8008</param>
             <param name="control">button</param>
-            <label> $LOCALIZE[31971]</label>
+            <label> $LOCALIZE[31463]</label>
             <label2>$VAR[OSDCodecLogosStartupTimerLabel]</label2>
             <visible>Skin.HasSetting(osd.useleftCodecStartupLogos) | Skin.HasSetting(osd.usecenterCodecStartupLogos) | Skin.HasSetting(osd.userightCodecStartupLogos)</visible>
             <onclick condition="!Skin.HasSetting(osd.useOneSecondCodecLogos) + !Skin.HasSetting(osd.useTwoSecondsCodecLogos) + !Skin.HasSetting(osd.useThreeSecondsCodecLogos) + !Skin.HasSetting(osd.useFourSecondsCodecLogos) + !Skin.HasSetting(osd.useFiveSecondsCodecLogos) + !Skin.HasSetting(osd.useSixSecondsCodecLogos) + !Skin.HasSetting(osd.useSevenSecondsCodecLogos) + !Skin.HasSetting(osd.useEightSecondsCodecLogos) + !Skin.HasSetting(osd.useNineSecondsCodecLogos) + !Skin.HasSetting(osd.useTenSecondsCodecLogos) + !Skin.HasSetting(osd.useElevenSecondsCodecLogos) + !Skin.HasSetting(osd.useTwelveSecondsCodecLogos) + !Skin.HasSetting(osd.useThirteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFourteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">Skin.ToggleSetting(osd.useSixSecondsCodecLogos)</onclick>
@@ -2512,7 +2512,7 @@
             <param name="dialog">true</param>
             <param name="id">8009</param>
             <param name="control">button</param>
-            <label>$LOCALIZE[31960]</label>
+            <label>$LOCALIZE[31433]</label>
             <label2>$VAR[OSDCodecLogosLabel]</label2>
             <onclick condition="!Skin.HasSetting(osd.useleftCodecLogos) + !Skin.HasSetting(osd.usecenterCodecLogos) + !Skin.HasSetting(osd.userightCodecLogos)">Skin.ToggleSetting(osd.useleftCodecLogos)</onclick>
             <onclick condition="Skin.HasSetting(osd.useleftCodecLogos)">Skin.ToggleSetting(osd.usecenterCodecLogos)</onclick>
@@ -2525,7 +2525,7 @@
             <param name="dialog">true</param>
             <param name="id">8010</param>
             <param name="control">button</param>
-            <label>$LOCALIZE[31961]</label>
+            <label>$LOCALIZE[31436]</label>
             <label2>$VAR[PPICodecLogosLabel]</label2>
             <onclick condition="!Skin.HasSetting(ppi.useleftCodecLogos) + !Skin.HasSetting(ppi.usecenterCodecLogos) + !Skin.HasSetting(ppi.userightCodecLogos)">Skin.ToggleSetting(ppi.useleftCodecLogos)</onclick>
             <onclick condition="Skin.HasSetting(ppi.useleftCodecLogos)">Skin.ToggleSetting(ppi.usecenterCodecLogos)</onclick>
@@ -2542,45 +2542,37 @@
         <include content="Settings_Button">
             <param name="dialog">true</param>
             <param name="id">8012</param>
-            <param name="control">button</param>
-            <label>$LOCALIZE[31989]</label>
-            <label2>$VAR[Label_Setting_InfoLineStyle]</label2>
-            <onclick>Skin.ToggleSetting(Info.EnablePillboxStyle)</onclick>
-        </include>
-        <include content="Settings_Button">
-            <param name="dialog">true</param>
-            <param name="id">8013</param>
             <param name="control">radiobutton</param>
-            <label>$LOCALIZE[31984]</label>
+            <label>$LOCALIZE[31513]</label>
             <onclick>Skin.ToggleSetting(InfoBar.TwoRow)</onclick>
             <selected>Skin.HasSetting(InfoBar.TwoRow)</selected>
         </include>
         <include content="Settings_Button">
             <param name="dialog">true</param>
-            <param name="id">8014</param>
+            <param name="id">8013</param>
             <param name="control">radiobutton</param>
             <label>$LOCALIZE[21446]</label>
             <onclick>Skin.ToggleSetting(InfoTags.EnableAudioCodec)</onclick>
             <selected>Skin.HasSetting(InfoTags.EnableAudioCodec)</selected>
         </include>
         <include content="Settings_Label">
-            <param name="id">8015</param>
+            <param name="id">8014</param>
             <param name="dialog">true</param>
             <label>$LOCALIZE[40000]</label>
         </include>
         <include content="Settings_Button">
             <param name="dialog">true</param>
-            <param name="id">8016</param>
+            <param name="id">8015</param>
             <param name="control">radiobutton</param>
-            <label>$LOCALIZE[31981]</label>
+            <label>$LOCALIZE[31505]</label>
             <onclick>Skin.ToggleSetting(Filename.DialogSelect)</onclick>
             <selected>Skin.HasSetting(Filename.DialogSelect)</selected>
         </include>
         <include content="Settings_Button">
             <param name="dialog">true</param>
-            <param name="id">8017</param>
+            <param name="id">8016</param>
             <param name="control">radiobutton</param>
-            <label> $LOCALIZE[31972]</label>
+            <label> $LOCALIZE[31464]</label>
             <onclick>Skin.ToggleSetting(Path.DialogSelect)</onclick>
             <selected>Skin.HasSetting(Path.DialogSelect)</selected>
             <visible>Skin.HasSetting(Filename.DialogSelect)</visible>

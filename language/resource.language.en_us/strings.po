@@ -107,17 +107,11 @@ msgctxt "#31497"
 msgid "Minimise menu"
 msgstr "Minimize menu"
 
-msgctxt "#31538"
-msgid "Customise viewtypes"
-msgstr "Customize viewtypes"
 
 msgctxt "#31586"
 msgid "Customise shortcuts"
 msgstr "Customize shortcuts"
 
-msgctxt "#31634"
-msgid "Stylised"
-msgstr "Stylized"
 
 msgctxt "#31645"
 msgid "This category contains the settings for the colour scheme and backgrounds."
@@ -171,9 +165,6 @@ msgctxt "#31760"
 msgid "Replace the Home widgets with a ready-made set. Kodi asks before your current widgets are overwritten. Customise them later in Skin settings."
 msgstr "Replace the Home widgets with a ready-made set. Kodi asks before your current widgets are overwritten. Customize them later in Skin settings."
 
-msgctxt "#31767"
-msgid "Colours"
-msgstr "Colors"
 
 msgctxt "#31768"
 msgid "A colour scheme sets the highlight colour, window background and dialog background together. Adjust each one afterwards if you like."
@@ -187,10 +178,14 @@ msgctxt "#31792"
 msgid "Highlight colour"
 msgstr "Highlight color"
 
-msgctxt "#31982"
+msgctxt "#31859"
+msgid "Japanese Watercolour"
+msgstr "Japanese Watercolor"
+
+msgctxt "#31507"
 msgid "Customise video osd"
 msgstr "Customize video osd"
 
-msgctxt "#31983"
+msgctxt "#31512"
 msgid "Customise video info"
 msgstr "Customize video info"

@@ -440,11 +440,6 @@
         <value>$LOCALIZE[39173] ($LOCALIZE[571])</value>
     </variable>
 
-    <variable name="Label_Setting_InfoLineStyle">
-        <value condition="Skin.HasSetting(Info.EnablePillboxStyle)">$LOCALIZE[31209]</value>
-        <value>$LOCALIZE[31329]</value>
-    </variable>
-
     <variable name="Label_Setting_ColourPreset">
         <value condition="$EXP[Exp_ColourPreset_BrightWhite]">$LOCALIZE[31560]</value>
         <value condition="$EXP[Exp_ColourPreset_MiamiVaporwave]">$LOCALIZE[31140]</value>
@@ -1828,7 +1823,7 @@
     </variable>
 	
     <variable name="OSDCodecLogosStartupTimerLabel">
-        <value condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">1 $LOCALIZE[31975]</value>
+        <value condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">1 $LOCALIZE[31475]</value>
         <value condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">2 $LOCALIZE[31130]</value>
         <value condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">3 $LOCALIZE[31130]</value>
         <value condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">4 $LOCALIZE[31130]</value>
@@ -1847,36 +1842,36 @@
     </variable>
 	
     <variable name="OSDCodecLogosStartupLabel">
-        <value condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">$LOCALIZE[31957]</value>
-        <value condition="Skin.HasSetting(osd.usecenterCodecStartupLogos)">$LOCALIZE[31958]</value>
-        <value condition="Skin.HasSetting(osd.userightCodecStartupLogos)">$LOCALIZE[31959]</value>
+        <value condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">$LOCALIZE[31422]</value>
+        <value condition="Skin.HasSetting(osd.usecenterCodecStartupLogos)">$LOCALIZE[31425]</value>
+        <value condition="Skin.HasSetting(osd.userightCodecStartupLogos)">$LOCALIZE[31426]</value>
         <value>$LOCALIZE[591]</value>
     </variable>
 
     <variable name="OSDCodecLogosLabel">
-        <value condition="Skin.HasSetting(osd.useleftCodecLogos)">$LOCALIZE[31957]</value>
-        <value condition="Skin.HasSetting(osd.usecenterCodecLogos)">$LOCALIZE[31958]</value>
-        <value condition="Skin.HasSetting(osd.userightCodecLogos)">$LOCALIZE[31959]</value>
+        <value condition="Skin.HasSetting(osd.useleftCodecLogos)">$LOCALIZE[31422]</value>
+        <value condition="Skin.HasSetting(osd.usecenterCodecLogos)">$LOCALIZE[31425]</value>
+        <value condition="Skin.HasSetting(osd.userightCodecLogos)">$LOCALIZE[31426]</value>
         <value>$LOCALIZE[591]</value>
     </variable>
 
     <variable name="PPICodecLogosLabel">
-        <value condition="Skin.HasSetting(ppi.useleftCodecLogos)">$LOCALIZE[31957]</value>
-        <value condition="Skin.HasSetting(ppi.usecenterCodecLogos)">$LOCALIZE[31958]</value>
-        <value condition="Skin.HasSetting(ppi.userightCodecLogos)">$LOCALIZE[31959]</value>
+        <value condition="Skin.HasSetting(ppi.useleftCodecLogos)">$LOCALIZE[31422]</value>
+        <value condition="Skin.HasSetting(ppi.usecenterCodecLogos)">$LOCALIZE[31425]</value>
+        <value condition="Skin.HasSetting(ppi.userightCodecLogos)">$LOCALIZE[31426]</value>
         <value>$LOCALIZE[591]</value>
     </variable>
 	
     <variable name="PPIMode">
-        <value condition="Skin.HasSetting(ppi.classicMode)">$LOCALIZE[31978]</value>
-        <value condition="Skin.HasSetting(ppi.modernMode)">$LOCALIZE[31977]</value>
-        <value>$LOCALIZE[31979]</value>
+        <value condition="Skin.HasSetting(ppi.classicMode)">$LOCALIZE[31488]</value>
+        <value condition="Skin.HasSetting(ppi.modernMode)">$LOCALIZE[31487]</value>
+        <value>$LOCALIZE[31489]</value>
     </variable>
 	
     <variable name="ArtworkStyle">
-        <value condition="String.IsEqual(Skin.String(OSD.ArtworkStyle),DiscArt)">$LOCALIZE[31985]</value>
-        <value condition="String.IsEqual(Skin.String(OSD.ArtworkStyle),VHSArt)">$LOCALIZE[31980]</value>
-        <value>$LOCALIZE[31930]</value>
+        <value condition="String.IsEqual(Skin.String(OSD.ArtworkStyle),DiscArt)">$LOCALIZE[31514]</value>
+        <value condition="String.IsEqual(Skin.String(OSD.ArtworkStyle),VHSArt)">$LOCALIZE[31503]</value>
+        <value>$LOCALIZE[31317]</value>
     </variable>
 	
     <variable name="VideoDecoder">
@@ -1929,7 +1924,7 @@
     <variable name="ColorSpaceVar">
         <value condition="String.Contains(Player.Process(video.source.hdr.type),SDR) + Integer.IsGreater(Player.Process(video.height.raw),479)">BT.709</value>
         <value condition="String.Contains(Player.Process(video.dovi.profile),5)">IPTPQc2/IPT</value>
-        <value condition="String.IsEmpty(Player.Process(video.hdr.colour.primaries))">$LOCALIZE[31933]</value>
+        <value condition="String.IsEmpty(Player.Process(video.hdr.colour.primaries))">$LOCALIZE[31323]</value>
         <value condition="!String.IsEmpty(Player.Process(video.hdr.colour.primaries))">$INFO[Player.Process(video.hdr.colour.primaries)]</value>
     </variable>
     
@@ -2010,13 +2005,13 @@
     </variable>
 	
     <variable name="L5StateVar">
-        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),0)">L5 ($LOCALIZE[31990])</value>
+        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),0)">L5 ($LOCALIZE[31534])</value>
         <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),1)">L5 (non-16:9 skip)</value>
         <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),2)">L5 (IMAX skip)</value>
-        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),3)">L5 ($LOCALIZE[31991])</value>
-        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),4)">L5 ($LOCALIZE[31992])</value>
-        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),5)">$LOCALIZE[31967]</value>
-        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),6)">L5 ($LOCALIZE[31993])</value>
+        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),3)">L5 ($LOCALIZE[31538])</value>
+        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),4)">L5 ($LOCALIZE[31546])</value>
+        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),5)">$LOCALIZE[31449]</value>
+        <value condition="Integer.IsEqual(Player.Process(video.dovi.l5.detect.state),6)">L5 ($LOCALIZE[31547])</value>
     </variable>
 	
     <variable name="VideoVPModeVar">

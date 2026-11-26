@@ -27,7 +27,7 @@
                 <height>520</height>
 				
                 <include content="Object_MenuHeader">
-                    <param name="label">$LOCALIZE[31965]</param>
+                    <param name="label">$LOCALIZE[31446]</param>
                     <param name="icon">special://skin/extras/icons/vs10.png</param>
                 </include>
 				
@@ -178,7 +178,7 @@
                 <height>440</height>
 				
                 <include content="Object_MenuHeader">
-                    <param name="label">$LOCALIZE[31965]</param>
+                    <param name="label">$LOCALIZE[31446]</param>
                     <param name="icon">special://skin/extras/icons/vs10.png</param>
                 </include>
 				
@@ -301,7 +301,7 @@
                 <height>440</height>
 				
                 <include content="Object_MenuHeader">
-                    <param name="label">$LOCALIZE[31965]</param>
+                    <param name="label">$LOCALIZE[31446]</param>
                     <param name="icon">special://skin/extras/icons/vs10.png</param>
                 </include>
 				
