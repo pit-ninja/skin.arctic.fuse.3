@@ -8,6 +8,25 @@
         <height>50</height>
     </include>
 
+    <include name="OSD_Part_Background_Blur">
+        <include content="Part_Background_Blur">
+            <param name="transparency">true</param>
+        </include>
+    </include>
+
+    <include name="OSD_Stream_Selector_Divider">
+        <control type="image">
+            <texture border="20" colordiffuse="dialog_fg_12">common/dialog.png</texture>
+        </control>
+        <control type="image">
+            <left>40</left>
+            <right>40</right>
+            <height>1</height>
+            <centerbottom>40</centerbottom>
+            <texture colordiffuse="dialog_fg_06">common/white.png</texture>
+        </control>
+    </include>
+
     <include name="CodecLogosLeftPPI">
         <control type="group">
             <left>35</left>
